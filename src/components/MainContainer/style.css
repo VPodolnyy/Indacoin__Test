@@ -1,0 +1,7 @@
+.main {
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    max-width: 1400px;
+    margin: 0 auto;
+}

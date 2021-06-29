@@ -1,0 +1,16 @@
+.card {
+    margin-bottom: 40px;
+}
+h3 {
+    position: relative;
+    margin-bottom: 20px;
+}
+h3::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    left: 0;
+    bottom: -10px;
+    background-color: #f7931a;
+}

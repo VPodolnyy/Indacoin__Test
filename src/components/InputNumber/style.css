@@ -1,0 +1,16 @@
+.tentacles {
+    height: 55px;
+    border-right: 0px solid rgb(224, 224, 224);
+    width: 100%;
+    padding: 0 10px;
+    background: #eee;
+    color: #4d4d4d;
+    border: 0 solid #e5e5e5;
+    transition: .2s ease-in-out;
+    transition-property: color,background-color,border;
+    border-radius: 6px 0px 0px 6px;
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+    outline: none;
+    font-size: 18px;
+}
