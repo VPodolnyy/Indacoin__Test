@@ -14,3 +14,14 @@
     outline: none;
     font-size: 18px;
 }
+.tentacles::-webkit-outer-spin-button,
+.tentacles::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    background: #eee url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAKUlEQVQYlWNgwAT/sYhhKPiPT+F/LJgEsHv37v+EMGkmkuImoh2NoQAANlcun/q4OoYAAAAASUVORK5CYII=) no-repeat center center;
+    width: 1em;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
