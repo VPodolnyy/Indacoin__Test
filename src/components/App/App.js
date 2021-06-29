@@ -132,7 +132,7 @@ function App() {
 
   const calculateCurrency = (currency) => {
     // здесь математичский рассчет/ преобразование валюты
-    const result = moneyValue * 0.003
+    const result = moneyValue
     return result
   }
 

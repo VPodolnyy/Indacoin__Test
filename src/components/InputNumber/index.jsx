@@ -10,7 +10,7 @@ function inputtop(props) {
         <div className = "inputs">
             <input className="tentacles" value={props.value} onChange={getValue} disabled = {props.disabled} type= {props.type} ></input>
             { props.hasError && (
-              <p>Ошибка!!!Сука</p>
+              <p>Ошибка!!!</p>
             )}
             { props.children }
         </div>
